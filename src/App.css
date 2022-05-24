@@ -1,0 +1,69 @@
+.header{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    box-shadow: 1px 1px 20px green;
+    background-color: white;
+}
+.header .logo h1{
+  font-family: 'Moo Lah Lah', cursive;
+  font-size: 70px;
+  margin: 0;
+}
+.header-menu{
+  display: flex;
+    list-style: none;
+}
+.header-menu li{
+  margin-right: 20px;
+  
+}
+.header-menu_link{
+  text-decoration: none;
+  color: black;
+}
+.menu-btn{
+  display: none;
+}
+.header-menu-visible{
+  display: block;
+}
+.header-menu-hidden{
+  display: none;
+}
+.resp-menu{
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background: green;
+  padding: 0;
+  margin: 0;
+  right: 0;
+  left: 0;
+  top: 86px;
+}
+.about .logo{
+  width: 120px;
+}
+.about{
+  display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:768px) {
+  .header-menu{
+    display: none;
+  }
+  .menu-btn{
+    display: block;
+        font-size: 30px;
+  }
+  .about{
+    display: grid;
+    justify-content: center;
+  }
+}
