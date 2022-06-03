@@ -19,8 +19,8 @@ export default function Header() {
                     <li><Link className='header-menu_link' to="/contact">Contact</Link></li>
                 </ul>
                 {
-                    click ? <FaTimesCircle className='menu-btn' onClick={handleMenuClick}/>    :
-                    <MdOutlineMenuBook  className='menu-btn' onClick={handleMenuClick}/> 
+                    click ? <FaTimesCircle color='white' className='menu-btn' onClick={handleMenuClick}/>    :
+                    <MdOutlineMenuBook  color='white' className='menu-btn' onClick={handleMenuClick}/> 
                 }
                 
                 

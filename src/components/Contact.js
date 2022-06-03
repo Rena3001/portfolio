@@ -10,9 +10,9 @@ export default function Contact() {
     <div style={{}}>
      <span className='contact'> You can contact with me</span>
         <div className='social-media'>
-       <span> <br/><Link className='contact-app' target="_blank" to="mailto:verdiyevarana@gmail.com"><SiGmail/>verdiyevarana@gmail.com</Link></span> 
-       <span> <Link className='contact-app' target="_blank" to="github.com/Rena3001/"><BsGithub/>https://github.com/Rena3001/</Link></span>
-       <span> <Link  className='contact-app' to="/"><BsWhatsapp/>070-256-50-00</Link></span>
+       <span> <br/><a className='contact-app' target="_blank" href="mailto:verdiyevarana@gmail.com"><SiGmail/>verdiyevarana@gmail.com</a></span> 
+       <span> <a className='contact-app' target="_blank" href="github.com/Rena3001/"><BsGithub/>https://github.com/Rena3001/</a></span>
+       <span> <a  className='contact-app' href="/"><BsWhatsapp/>070-256-50-00</a></span>
         </div>
         </div>
         </div>
